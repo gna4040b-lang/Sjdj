@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Virtual Camera</string>
+    <string name="title_virtual_camera">Virtual Camera Studio</string>
+    <string name="desc_virtual_camera">Switch between Physical Camera hardware and Custom Video Virtual Feed.</string>
+    <string name="mode_physical">Physical Camera</string>
+    <string name="mode_virtual">Virtual Video Feed</string>
+    <string name="btn_select_video">Select Video</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_loop_on">Looping: On</string>
+    <string name="btn_loop_off">Looping: Off</string>
+    <string name="btn_mute">Mute</string>
+    <string name="btn_unmute">Unmute</string>
+    <string name="btn_switch_camera">Switch Lens</string>
+    <string name="msg_no_video_selected">No video loaded. Select an MP4/WebM video file.</string>
+    <string name="camera_permission_required">Camera permission is required to stream from the physical camera.</string>
+    <string name="camera_permission_denied">Camera permission was denied. You can still use the Virtual Video Feed mode.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="error_invalid_video">Failed to open selected video. Please choose a valid video file.</string>
+    <string name="info_system_limitation_title">Android Architecture &amp; System-Wide Camera</string>
+    <string name="info_system_limitation_body">Standard unrooted Android isolates camera hardware via Camera HAL and SELinux. Third-party apps (WhatsApp, Instagram, Meet) access cameras directly via CameraManager and system HAL.\n\nWithout root, Xposed, or custom OS firmware, injecting fake video directly into other apps\' private Camera2 sessions is prevented by Android OS security.\n\nThis app provides:\n1. Real-time Physical Camera preview (CameraX)\n2. Virtual Video Feed preview with smooth hardware-accelerated playback and full transport controls (Play, Pause, Stop, Loop, Mute, Seek)\n3. System Camera Intent capture responder (responds to camera capture intents from other apps)\n4. Floating overlay mode for multitasking.</string>
+</resources>

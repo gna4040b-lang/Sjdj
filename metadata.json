@@ -1,0 +1,6 @@
+{
+  "name": "Virtual Camera",
+  "description": "Android virtual camera studio with physical CameraX integration, video feed playback controls, and system camera intent handling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
